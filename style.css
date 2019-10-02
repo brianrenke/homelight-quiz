@@ -1,0 +1,174 @@
+/* Mobile first */
+/* Grid */
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #273653;
+  max-width: 120rem;
+  margin: auto;
+  padding: 0 2rem;
+  height: 100%;
+}
+
+.content {
+  height: 100%;
+  padding-top: 4rem;
+}
+
+.col-xs,
+.col-xs-1,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12 {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+}
+
+/* fonts */
+html {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, "Helvetica Neue", sans-serif;
+  font-size: 8px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  margin: 0;
+  padding-bottom: 3rem;
+  color: #FFFFFF;
+}
+
+h2 {
+  font-size: 4.5rem;
+  font-weight: 900;
+  margin: 0;
+  padding: 0 0 2rem 0;
+}
+
+h3 {
+  font-size: 3.25rem;
+  font-weight: 900;
+  margin: 0;
+  padding: 0 0 2rem 0;
+}
+
+h4 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  margin: 0;
+  padding: 0 0 1rem 0;
+  color: #FFFFFF;
+}
+
+p {
+  font-size: 2rem;
+  line-height: 3rem;
+  margin: 0;
+  padding: 0 0 1rem 0;
+  color: #FFFFFF;
+}
+
+p.body-large {
+  font-size: 3rem;
+  padding: 0 0 4rem 0;
+}
+
+a {
+  color: #273653;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  font-size: 2rem;
+  font-weight: 900;
+  line-height: 3rem;
+  margin: 0;
+  padding: 0 0 1rem 0;
+  color: #FFFFFF;
+}
+
+/* Colors */
+html {
+  color: #273653;
+}
+
+.progress-bar {
+  display: inline-block;
+
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(39, 54, 83, 0.8);
+
+  width: 100%;
+  height: 1rem;
+  margin-bottom: 3rem;
+
+  text-align: left;
+}
+
+.progress-value {
+  display: block;
+
+  background-color: #46B6FF;
+  border-radius: 4px;
+  height: 1rem;
+
+  animation-name: progress;
+  animation-duration: 8s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+
+/* Animations */
+
+
+/* Breakpoint 768px*/
+@media only screen and (min-width: 48em) {
+  body {
+    background-image: url("bg-image_tablet.jpg");
+  }
+
+  h1 {
+    font-size: 4.5rem;
+    letter-spacing: -1px;
+  }
+
+  .list-text.col-xs-11 {
+    padding-left: 0;
+  }
+
+  p {
+    line-height: 3.5rem;
+  }
+
+  progress[value] {
+    width: 75%;
+    height: 1rem;
+    margin-bottom: 3rem;
+  }
+}
+
+/* Breakpoint 992px*/
+@media only screen and (min-width: 62em) {
+}
